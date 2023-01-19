@@ -3,18 +3,18 @@ import SwipeableViews from 'react-swipeable-views';
 
 const styles = {
   slide: {
-    padding: 15,
-    minHeight: 100,
-    color: '#fff',
+    // padding: 15,
+    // minHeight: 100,
+    // color: '#fff',
   },
   slide1: {
-    backgroundColor: '#FEA900',
+    backgroundColor: 'purple',
   },
   slide2: {
-    backgroundColor: '#B3DC4A',
+    backgroundColor: 'purple',
   },
   slide3: {
-    backgroundColor: '#6AC0FF',
+    backgroundColor: 'purple',
   },
 };
 
@@ -155,8 +155,8 @@ function BusinessCard({
       className="card-business"
       style={{
         background: "#fff",
-        width: "90mm",
-        height: "50mm",
+        width: "180mm",
+        height: "100mm",
         borderRadius: "5px",
         boxShadow: shadow !== false ? "#9E9E9E 0px 0px 10px" : "",
         ...style
@@ -227,10 +227,11 @@ function BusinessCard({
         />
         <ul
           style={{
-            fontSize: "10pt",
+            fontSize: "15pt",
             listStyle: "none",
-            lineHeight: "15pt",
+            lineHeight: "25pt",
             margin: 0,
+            marginTop : '10px',
             padding: 0
           }}
         >
@@ -274,13 +275,13 @@ function App() {
     {
       avatar: "/avatar.png",
       qr: "/qr.png",
-      displayName: "Elon Musk",
-      tagline: "Entrepreneur",
-      title: "CEO Boring Company",
-      phone: "+123-456-789",
-      mail: "m@spacex.com",
-      location: "United State , Califonia",
-      socials: [["twitter", "@elonmusk"], ["linkedin", "/in/elonmusk"]]
+      displayName: "Manoj S warrier",
+      tagline: "CEO",
+      title: "Chief Operating Officer",
+      phone: "+254 7366 47680",
+      mail: "msw@renga.tech",
+      location: "Parklands Road, Mayfair Suites 2nd floor",
+      socials: [["twitter", "@manoj"], ["linkedin", "/in/manoj"]]
     }
     /*{
       avatar: "/avatar.png",
